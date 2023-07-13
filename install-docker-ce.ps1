@@ -77,7 +77,7 @@ param(
 
     [string]
     [ValidateNotNullOrEmpty()]
-    $DockerVersion = "latest",
+    $DockerVersion = "17.06.0-ce",
 
     [string]
     $ExternalNetAdapter,
